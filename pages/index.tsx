@@ -1,9 +1,10 @@
 import React from "react";
+import { Text } from "@chakra-ui/react";
 
 const HomePage: React.FC = () => {
   return (
     <>
-      <p>Hello World</p>
+      <Text color={"primary"}>Hello World</Text>
     </>
   );
 };
